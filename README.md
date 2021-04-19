@@ -9,7 +9,7 @@ Rozpakuj go
 2. Przykład : plugman install --platform android --project C:\Users\Jan.Mazurek\CordovaProjects\test\platforms\android --plugin C:\Users\Jan.Mazurek\plugins\NetrixFcmPlugin
 
 3. Należy wgrać plik google-services.json do folderu \app projektu aplikacji np. C:\Users\Jan.Mazurek\CordovaProjects\test\platforms\android\app
-4. Należy edytować plik MyFirebaseMessagingService.java (\platforms\android\app\src\main\java\com\example\cordova\plugin\NetrixFcmPlugin) importując w nim klasę MainActivity zależnie od pakietu aplikacji. (Wiecej info po otworzeniu tego pliku)
+4. Należy edytować plik MyFirebaseMessagingService.java (\platforms\android\app\src\main\java\com\example\cordova\plugin\FCM) importując w nim klasę MainActivity zależnie od pakietu aplikacji. (Wiecej info po otworzeniu tego pliku)
 5. Należy edytować plik index.js (\platforms\android\app\src\main\assets\www\js) dodając na początku funkcji onDeviceReady() : 
 ```javascript
       NetrixFcmPlugin.start();
