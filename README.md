@@ -1,5 +1,5 @@
 # StartFromFCM_plugin
-Ściągnij cały projekt pluginu z githuba https://github.com/Janeeczek/StartFromFCM_plugin/archive/refs/heads/master.zip 
+Ściągnij cały projekt pluginu z githuba https://github.com/Janeeczek/NetrixFcmPlugin/archive/refs/heads/master.zip 
 Rozpakuj go
 
 
